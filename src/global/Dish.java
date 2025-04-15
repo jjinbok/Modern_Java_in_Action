@@ -1,6 +1,7 @@
-package stream;
+package global;
 
 public class Dish {
+
     private final String name;
     private final boolean vegetarian;
     private final int calories;
@@ -34,5 +35,5 @@ public class Dish {
         return name;
     }
 
-    public enum Type { MEAT, FISH, OTHER }
+    public enum Type {MEAT, FISH, OTHER}
 }
